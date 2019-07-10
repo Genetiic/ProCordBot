@@ -4,7 +4,7 @@ const ytdl = require('ytdl-core');
 module.exports.run = async (bot, message, args) => {
 
     const streamOption = {seek: 0, volume: 1};
-    let voiceChannelID = "508037619699941386";
+    let voiceChannelID = "594029248486965248";
 
     const embed = new RichEmbed()
     .setTitle('Countdown starting!')
